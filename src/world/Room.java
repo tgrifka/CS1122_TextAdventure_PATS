@@ -79,8 +79,8 @@ public class Room {
         return connections.get(dir);
     }
 
-    public Room[] getConnectionDirs() {
-        return connections.keySet().toArray(new Room[]{});
+    public Direction[] getConnectionDirs() {
+        return connections.keySet().toArray(new Direction[]{});
     }
 
     public boolean addConnection(Direction dir, Room room) {

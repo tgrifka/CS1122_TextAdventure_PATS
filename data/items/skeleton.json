@@ -1,0 +1,16 @@
+{
+  "item8:": {
+    "itemid": "skeleton",
+    "name": "Skeleton",
+    "desc": "",
+    "attribute": "static",
+    "altnames": [
+      {
+        "name_1": "corpse",
+        "name_2": "body",
+        "name_3": "dead_body",
+        "name_4": "prisoner"
+      }
+    ]
+  }
+}
