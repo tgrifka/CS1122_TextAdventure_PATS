@@ -1,0 +1,15 @@
+{
+  "item7:": {
+    "id": "irongate",
+    "name": "Iron Gate",
+    "desc": "",
+    "attribute": "static",
+    "altnames": [
+      {
+        "name_1": "gate",
+        "name_2": "iron gate",
+        "name_3": "iron gate"
+      }
+    ]
+  }
+}
