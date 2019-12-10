@@ -1,0 +1,13 @@
+{
+  "item10:": {
+    "id": "inscription",
+    "name": "Inscription",
+    "desc": "",
+    "attribute": "static",
+    "altnames": [
+      {
+        "name_1": "wall"
+      }
+    ]
+  }
+}

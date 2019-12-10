@@ -1,6 +1,6 @@
 {
   "item8:": {
-    "itemid": "skeleton",
+    "id": "skeleton",
     "name": "Skeleton",
     "desc": "",
     "attribute": "static",

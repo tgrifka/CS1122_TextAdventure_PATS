@@ -22,4 +22,9 @@ public class Minotaur{
         prevRoom = room;
         room = nextRoom;
     }
+
+    public void setRoom(Room room) {
+        prevRoom = this.room;
+        this.room = room;
+    }
 }

@@ -1,0 +1,12 @@
+{
+  "item11:": {
+    "id": "journal",
+    "name": "Journal",
+    "desc": "",
+    "altnames": [
+      {
+        "name_1": "book"
+      }
+    ]
+  }
+}
