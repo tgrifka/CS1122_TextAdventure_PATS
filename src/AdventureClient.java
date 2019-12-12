@@ -18,8 +18,12 @@ public class AdventureClient {
 				BufferedReader keyboardInput = new BufferedReader ( new InputStreamReader ( System.in ) );
 				String s = "";
 				while (true) {
-					System.out.print("> ");
-					System.out.flush ();
+					while(fromServer.ready()){
+                        s = fromServer.readLine ();
+                        System.out.println ( s );
+                    }
+                    System.out.print("> ");
+                    System.out.flush ();
 					if ((s=keyboardInput.readLine ()) == null) { break; }
 					toServer.println ( s );
 					s = fromServer.readLine ();
